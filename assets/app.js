@@ -167,9 +167,9 @@
         <section class="login-panel">
           <form class="login-card" novalidate>
             <h2>Bem-vinda de volta</h2>
-            <p class="lead">Entre com o e-mail e a senha que você recebeu na compra.</p>
+            <p class="lead">Entre com o e-mail e a senha (seu cpf).</p>
             <label class="field"><span>Seu e-mail</span><input type="email" name="email" autocomplete="email" required placeholder="nome@email.com"></label>
-            <label class="field"><span>Sua senha</span><input type="password" name="password" autocomplete="current-password" required placeholder="Digite sua senha"></label>
+            <label class="field"><span>Sua senha</span><input type="password" name="password" autocomplete="current-password" required placeholder="Digite sua senha (CPF)"></label>
             <button class="btn btn-primary btn-block" type="submit">Entrar no ateliê ${icon("arrow")}</button>
             <p class="login-note">Problemas para entrar? Responda o e-mail de compra que ajudamos você.</p>
           </form>
